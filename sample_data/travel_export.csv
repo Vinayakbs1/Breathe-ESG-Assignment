@@ -1,0 +1,21 @@
+Report_ID,Employee_ID,Employee_Name,Department,Travel_Type,Origin,Destination,Travel_Date,Return_Date,Airline_Vendor,Class,Distance_KM,Hotel_Nights,Hotel_Name,Ground_Transport_Type,Ground_Distance_KM,Trip_Purpose,Approved_By,Status
+TR-2024-0101,EMP-1042,Arjun Mehta,Engineering,flight,BLR,DEL,2024-01-08,2024-01-10,IndiGo,Economy,,0,,taxi,45,Client Meeting,MGR-201,APPROVED
+TR-2024-0102,EMP-2018,Priya Sharma,Sales,flight,BOM,HYD,2024-01-10,2024-01-11,Air India,Economy,711,1,Novotel Hyderabad,taxi,,Sales Conference,MGR-105,APPROVED
+TR-2024-0103,EMP-3055,Rahul Nair,Finance,flight,DEL,SIN,2024-01-15,2024-01-19,Singapore Airlines,Business,4150,4,Marina Bay Sands,taxi,30,Investor Summit,MGR-301,APPROVED
+TR-2024-0104,EMP-1042,Arjun Mehta,Engineering,flight,DEL,BLR,2024-01-10,2024-01-10,IndiGo,Economy,,0,,taxi,40,Return,MGR-201,APPROVED
+TR-2024-0105,EMP-4021,Sneha Gupta,HR,hotel,,,2024-01-20,2024-01-22,,,0,2,Taj Palace Delhi,,,Internal Training,MGR-401,APPROVED
+TR-2024-0106,EMP-2034,Vikram Singh,Sales,flight,BLR,CCU,2024-01-22,2024-01-23,IndiGo,Economy,1871,1,Hyatt Regency Kolkata,taxi,,Regional Review,MGR-105,APPROVED
+TR-2024-0107,EMP-5010,Ananya Krishnan,Marketing,ground_transport,Bangalore,Mysore,,2024-01-25,,,-1,0,,car,145,Vendor Visit,MGR-501,APPROVED
+TR-2024-0108,EMP-3055,Rahul Nair,Finance,flight,BLR,LHR,2024-02-01,2024-02-05,British Airways,Business,,5,The Savoy London,taxi,25,Board Meeting,MGR-301,APPROVED
+TR-2024-0109,EMP-1099,Deepak Verma,Engineering,flight,HYD,BOM,2024-02-05,2024-02-05,SpiceJet,Economy,711,0,,,,Tech Conference,MGR-201,APPROVED
+TR-2024-0110,EMP-2018,Priya Sharma,Sales,flight,BOM,DEL,2024-02-08,2024-02-09,Vistara,Economy,1148,1,Holiday Inn Delhi,uber,22,Client Pitch,MGR-105,APPROVED
+TR-2024-0111,EMP-6001,Karan Patel,Operations,ground_transport,Pune,Mumbai,,2024-02-10,,,,0,,car,148,Office Visit,MGR-601,APPROVED
+TR-2024-0112,EMP-4021,Sneha Gupta,HR,flight,DEL,BLR,2024-02-12,2024-02-12,IndiGo,Economy,,0,,taxi,38,Recruitment Drive,MGR-401,APPROVED
+TR-2024-0113,EMP-7002,Meera Joshi,Legal,flight,BLR,DXB,2024-02-14,2024-02-16,Emirates,Economy,2836,2,Marriott Dubai,taxi,20,Legal Review,MGR-701,APPROVED
+TR-2024-0114,EMP-1042,Arjun Mehta,Engineering,flight,BLR,BOM,2024-02-20,2024-02-21,IndiGo,Economy,842,1,,taxi,,Sprint Review,MGR-201,PENDING
+TR-2024-0115,EMP-5010,Ananya Krishnan,Marketing,hotel,,,2024-02-22,2024-02-24,,,0,2,ITC Gardenia Bangalore,,,Marketing Offsite,MGR-501,APPROVED
+TR-2024-0116,EMP-3055,Rahul Nair,Finance,flight,BLR,JFK,2024-03-01,2024-03-07,Air India,Business,13786,6,The Peninsula New York,taxi,18,Investor Roadshow,MGR-301,APPROVED
+TR-2024-0117,EMP-2034,Vikram Singh,Sales,flight,DEL,PNQ,2024-03-05,2024-03-06,IndiGo,Economy,1397,1,Marriott Pune,taxi,15,Sales Review,MGR-105,APPROVED
+TR-2024-0118,EMP-8801,,Operations,ground_transport,Chennai,Pondicherry,,2024-03-08,,,,0,,car,162,Site Inspection,MGR-601,APPROVED
+TR-2024-0119,EMP-1099,Deepak Verma,Engineering,flight,BOM,SFO,2024-03-10,2024-03-15,United Airlines,Economy,13982,5,Hyatt San Francisco,uber,30,Tech Conference,MGR-201,APPROVED
+TR-2024-0120,EMP-6001,Karan Patel,Operations,flight,BLR,MAA,2024-03-18,2024-03-18,Air India,Economy,285,0,,taxi,,Operations Review,MGR-601,APPROVED
