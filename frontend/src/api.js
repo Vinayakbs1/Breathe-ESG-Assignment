@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-// In production, VITE_API_URL points to the Render backend.
-// In dev, Vite's proxy forwards /api → localhost:8000.
+// Same origin in production (Django serves both).
+// VITE_API_URL override available for custom setups.
 const baseURL = import.meta.env.VITE_API_URL || '/api'
 
 function getCookie(name) {

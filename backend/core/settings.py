@@ -138,10 +138,14 @@ REST_FRAMEWORK = {
 
 STATIC_URL  = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# Use basic compression — ManifestStaticFilesStorage breaks pre-built frontend hashes
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 MEDIA_URL  = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+# WhiteNoise serves the built React assets (JS, CSS, images) from /assets/
+WHITENOISE_ROOT = BASE_DIR / 'staticfiles'
 
 # ─── Misc ────────────────────────────────────────────────────────────────────
 
