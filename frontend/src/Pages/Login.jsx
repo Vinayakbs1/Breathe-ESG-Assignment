@@ -140,9 +140,9 @@ export default function Login({ onLogin }) {
             color: t.textMuted, border: `1px solid ${t.border}`
           }}>
             <strong style={{ color: t.text }}>Demo credentials</strong><br />
-            <span style={{ fontFamily: 'monospace', color: t.text }}>analyst</span> / <span style={{ fontFamily: 'monospace', color: t.text }}>analyst123</span>
+            <span style={{ fontFamily: 'monospace', color: t.text }}>admin</span> / <span style={{ fontFamily: 'monospace', color: t.text }}>Admin@123</span>
             <br />
-            <span style={{ fontFamily: 'monospace', color: t.text }}>admin</span> / <span style={{ fontFamily: 'monospace', color: t.text }}>admin123</span>
+            <span style={{ fontFamily: 'monospace', color: t.text }}>analyst</span> / <span style={{ fontFamily: 'monospace', color: t.text }}>analyst123</span>
           </div>
         </div>
       </div>

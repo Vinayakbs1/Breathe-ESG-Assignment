@@ -93,12 +93,9 @@ else:
 FRONTEND_URL = os.environ.get('FRONTEND_URL', '')
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'http://127.0.0.1:5173',
-]
-if FRONTEND_URL:
-    CORS_ALLOWED_ORIGINS.append(FRONTEND_URL)
+# Allow all origins so the frontend static site can call the API.
+# Session auth + CSRF_TRUSTED_ORIGINS still provide security.
+CORS_ALLOW_ALL_ORIGINS = True
 
 # ─── CSRF ────────────────────────────────────────────────────────────────────
 
